@@ -1,6 +1,7 @@
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="css\main.css">
+		<link rel="stylesheet" type="text/css" href="css\index.css">
 		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	</head>
 	<body>
@@ -9,10 +10,200 @@
 				<div id="logo">
 					<a href=""><img width="100px" height="100px" src="https://cdn.discordapp.com/app-icons/278251426789195776/bf3e26065f687cd0afec352a8846603f.jpg"/>Animatronic-Server</a>
 				</div>
-				<div id="nav">
+				<div id="nav_left">
 					<a href="">Features</a>
 					<a href="">Commands</a>
+					<a href="">Wiki</a>
+				</div>
+				<div id="nav_right">
 					<a href="">Invite</a>
+					<a href="http://steamcommunity.com/id/Giepske" target="_blank">Contact</a>
+				</div>
+			</div>
+			<div id="content">
+			
+			
+				<div id="outertable">
+				<h1>Commands List</h1>
+					<table id="table">
+						<tbody>
+							<tr>
+								<th>Command Name</th>
+								<th>Description</th>
+								<th>Required Rank</th>
+								<th>Usage</th>
+								<th>Example Usage</th>
+							</tr>
+							<tr>
+								<td>ranks</td>
+								<td>Get all available ranks.</td>
+								<td>0</td>
+								<td>!ranks</td>
+								<td>!ranks</td>
+							</tr>
+							<tr>
+								<td>getrank</td>
+								<td>Get the rank of the given user, if no user given it will return your own rank.</td>
+								<td>0</td>
+								<td>!getrank &#60;username&#62;, &#60;discriminator&#62;</td>
+								<td>!getrank Giepske,8000</td>
+							</tr>
+							<tr>
+								<td>about</td>
+								<td>About the bot</td>
+								<td>0</td>
+								<td></td>
+								<td>////</td>
+							</tr>							
+							<tr>
+								<td>commands</td>
+								<td>Get all available commands (also admin commands).</td>
+								<td>0</td>
+								<td></td>
+								<td>////</td>
+							</tr>
+							<tr>
+								<td>hosttoip</td>
+								<td>Host (url) to ip address.</td>
+								<td>0</td>
+								<td></td>
+								<td>////</td>
+							</tr>
+							<tr>
+								<td>iptoisp</td>
+								<td>Ip address to isp.</td>
+								<td>0</td>
+								<td></td>
+								<td>////</td>
+							</tr>
+							<tr>
+								<td>iptoaddress</td>
+								<td>Ip address to location address. May not be accurate.</td>
+								<td>0</td>
+								<td></td>
+								<td>////</td>
+							</tr>
+							<tr>
+								<td>random</td>
+								<td>Return random string from input, max 20 inputs.</td>
+								<td>0</td>
+								<td></td>
+								<td>////</td>
+							</tr>
+							<tr>
+								<td>repeat</td>
+								<td>Bot repeats whatever text you give as input.</td>
+								<td>0</td>
+								<td></td>
+								<td>////</td>
+							</tr>
+							<tr>
+								<td>datetime</td>
+								<td>Send the datetime.</td>
+								<td>0</td>
+								<td></td>
+								<td>////</td>
+							</tr>
+							<tr>
+								<td>wheelie</td>
+								<td>-</td>
+								<td>0</td>
+								<td></td>
+								<td>////</td>
+							</tr>
+							<tr>
+								<td>poll</td>
+								<td>-</td>
+								<td>0</td>
+								<td></td>
+								<td>////</td>
+							</tr>
+							<tr>
+								<td>removemessages</td>
+								<td>Remove multiple messages at once. at startnr: 1=last message, 2 is one up etc.</td>
+								<td>1</td>
+								<td></td>
+								<td>////</td>
+							</tr>
+							<tr>
+								<td>setgame</td>
+								<td>Set game the bot is playing.</td>
+								<td>0</td>
+								<td></td>
+								<td>////</td>
+							</tr>
+							<tr>
+								<td>level</td>
+								<td>Show level & XP of the user.</td>
+								<td>0</td>
+								<td></td>
+								<td>////</td>
+							</tr>
+							<tr>
+								<td>getstream</td>
+								<td>Get a stream to watch the movie/show without popups or some shit.</td>
+								<td>0</td>
+								<td></td>
+								<td>////</td>
+							</tr>
+							<tr>
+								<td>invite</td>
+								<td>Get an invite to the server, this invite will never expire.</td>
+								<td>0</td>
+								<td></td>
+								<td>////</td>
+							</tr>
+							<tr>
+								<td>status</td>
+								<td>Show bot status and info.</td>
+								<td>0</td>
+								<td></td>
+								<td>////</td>
+							</tr>
+							<tr>
+								<td>lastseen</td>
+								<td>Get a datetime from when the user has been seen for the last time.</td>
+								<td>0</td>
+								<td></td>
+								<td>////</td>
+							</tr>
+							<tr>
+								<td>uptime</td>
+								<td>Show how long the bot has been online.</td>
+								<td>0</td>
+								<td></td>
+								<td>////</td>
+							</tr>
+							<tr>
+								<td>setrank</td>
+								<td>Set rank of a user used for the bot.</td>
+								<td>1</td>
+								<td></td>
+								<td>////</td>
+							</tr>
+							<tr>
+								<td>tagexists</td>
+								<td>Return value wether the given tagname already exists or not.</td>
+								<td>0</td>
+								<td></td>
+								<td>////</td>
+							</tr>
+							<tr>
+								<td>tag</td>
+								<td>Return a tag response.</td>
+								<td>0</td>
+								<td></td>
+								<td>////</td>
+							</tr>
+							<tr>
+								<td>settag</td>
+								<td>Set a tag that can be accessed with !tag <tagname>.</td>
+								<td>0</td>
+								<td></td>
+								<td>!settag hey,hello</td>
+							</tr>
+						</tbody>
+					</table>
 				</div>
 			</div>
 		</div>
