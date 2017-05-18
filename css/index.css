@@ -1,11 +1,13 @@
 #content{
 	width: 1200px;
+	margin-top: 50px;
 }
 
-#outertable{
+.outertable{
 	border: 10px solid white;
     border-radius: 5px;
 	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+	margin-bottom: 25px;
 }
 
 h1{
@@ -21,7 +23,7 @@ h1{
 	background-color: white;
 }
 
-#table{
+.table{
 	font-family: "Helvetica Neue", Helvetica, Arial;
 	background-color: white;
 	text-align: left;
@@ -35,6 +37,10 @@ h1{
 
 td{
 	font-weight: lighter;
+	padding-left: 10PX;
+    padding-right: 10PX;
+	max-width: 200px;
+	min-width: 200px;
 }
 
 /*
@@ -47,7 +53,7 @@ td{
 }
 */
 
-tr:not(:first-child) {
+.table tr:not(:first-child) {
     border-top: 1px solid #ccc;
 }
 
