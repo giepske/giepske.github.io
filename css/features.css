@@ -1,22 +1,11 @@
 #content{
-	display:none;
+	display: none;
 	width: 1200px;
 	margin-top: 50px;
 	opacity: 0;
 }
 
 h1{
-	float: left;
-	width: 500px;
-	color: white;
-	font-weight: lighter;
-	font-family: "Helvetica Neue", Helvetica, Arial;
-}
-
-h3{
-	line-height: 150%;
-	float: left;
-	width: 500px;
 	color: white;
 	font-weight: lighter;
 	font-family: "Helvetica Neue", Helvetica, Arial;
@@ -27,10 +16,4 @@ li{
 	color: white;
 	font-weight: lighter;
 	font-family: "Helvetica Neue", Helvetica, Arial;
-}
-
-#example{
-	border-radius: 15px;
-	margin-top: 25px;
-	float: right;
 }
